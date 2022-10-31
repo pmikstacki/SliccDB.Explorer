@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SliccDB.Explorer", "SliccDB.Explorer\SliccDB.Explorer.csproj", "{C525C313-21F3-4A34-9170-3446CD93E7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{CD422A55-620D-42A2-85F9-FACDD8C8B90A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticGraphLayout.Drawing", "Dependencies\GraphLayout\Drawing\AutomaticGraphLayout.Drawing.csproj", "{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticGraphLayout", "Dependencies\GraphLayout\MSAGL\AutomaticGraphLayout.csproj", "{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfGraphControl", "Dependencies\GraphLayout\tools\WpfGraphControl\WpfGraphControl.csproj", "{D82E691B-CF57-4114-8DF8-550906EE50DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C525C313-21F3-4A34-9170-3446CD93E7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C525C313-21F3-4A34-9170-3446CD93E7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C525C313-21F3-4A34-9170-3446CD93E7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C525C313-21F3-4A34-9170-3446CD93E7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82E691B-CF57-4114-8DF8-550906EE50DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82E691B-CF57-4114-8DF8-550906EE50DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82E691B-CF57-4114-8DF8-550906EE50DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82E691B-CF57-4114-8DF8-550906EE50DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D0C8EFF-C577-451B-B9A1-8BFF6AB473A3} = {CD422A55-620D-42A2-85F9-FACDD8C8B90A}
+		{BBB46CA7-D43C-45CB-8B7D-91CBA7D1589E} = {CD422A55-620D-42A2-85F9-FACDD8C8B90A}
+		{D82E691B-CF57-4114-8DF8-550906EE50DA} = {CD422A55-620D-42A2-85F9-FACDD8C8B90A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {742D9CC9-E8DE-449D-9848-C63452ED4515}
+	EndGlobalSection
+EndGlobal
